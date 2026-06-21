@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[report config]]>
+    </line>
+    <line>
+      <![CDATA[DB open]]>
+    </line>
+    <line>
+      <![CDATA[launch browser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[close browser]]>
+    </line>
+    <line>
+      <![CDATA[DB close]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-06-15T11:00:31 IST" name="Default suite" finished-at="2026-06-15T11:00:51 IST" duration-ms="19962">
+    <groups>
+      <group name="regression">
+        <method signature="TC_02_AddLowestProdcutToCart.toaddLowestProdcutToCartTest()[pri:0, instance:testCase.TC_02_AddLowestProdcutToCart@b3ca52e]" name="toaddLowestProdcutToCartTest" class="testCase.TC_02_AddLowestProdcutToCart"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC_02_AddLowestProdcutToCart.toaddLowestProdcutToCartTest()[pri:0, instance:testCase.TC_02_AddLowestProdcutToCart@b3ca52e]" name="toaddLowestProdcutToCartTest" class="testCase.TC_02_AddLowestProdcutToCart"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-06-15T11:00:31 IST" name="Default test" finished-at="2026-06-15T11:00:51 IST" duration-ms="19962">
+      <class name="testCase.TC_02_AddLowestProdcutToCart">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCase.TC_02_AddLowestProdcutToCart@b3ca52e]" started-at="2026-06-15T11:00:31 IST" name="beforeSuite" finished-at="2026-06-15T11:00:31 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCase.TC_02_AddLowestProdcutToCart@b3ca52e]" started-at="2026-06-15T11:00:31 IST" name="beforeClass" finished-at="2026-06-15T11:00:35 IST" duration-ms="4263" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launch browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCase.TC_02_AddLowestProdcutToCart@b3ca52e]" started-at="2026-06-15T11:00:35 IST" name="beforeMethod" finished-at="2026-06-15T11:00:37 IST" duration-ms="1761" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toaddLowestProdcutToCartTest()[pri:0, instance:testCase.TC_02_AddLowestProdcutToCart@b3ca52e]" started-at="2026-06-15T11:00:37 IST" name="toaddLowestProdcutToCartTest" finished-at="2026-06-15T11:00:49 IST" duration-ms="12312" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".inventory_item_name"}
+  (Session info: MicrosoftEdge=149.0.4022.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a078637e94fd3d8c362c6d90e282af58, findElement {using=class name, value=inventory_item_name}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.69, fedcm:accounts: true, goog:processID: 27264, ms:edgeOptions: {debuggerAddress: localhost:57165}, msedge: {msedgedriverVersion: 149.0.4022.69 (6c7df6d8a61d..., userDataDir: C:\Users\vires\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57165/devtoo..., se:cdpVersion: 149.0.4022.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a078637e94fd3d8c362c6d90e282af58]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".inventory_item_name"}
+  (Session info: MicrosoftEdge=149.0.4022.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a078637e94fd3d8c362c6d90e282af58, findElement {using=class name, value=inventory_item_name}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.69, fedcm:accounts: true, goog:processID: 27264, ms:edgeOptions: {debuggerAddress: localhost:57165}, msedge: {msedgedriverVersion: 149.0.4022.69 (6c7df6d8a61d..., userDataDir: C:\Users\vires\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57165/devtoo..., se:cdpVersion: 149.0.4022.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a078637e94fd3d8c362c6d90e282af58
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+at testCase.TC_02_AddLowestProdcutToCart.toaddLowestProdcutToCartTest(TC_02_AddLowestProdcutToCart.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toaddLowestProdcutToCartTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCase.TC_02_AddLowestProdcutToCart@b3ca52e]" started-at="2026-06-15T11:00:49 IST" name="afterMethod" finished-at="2026-06-15T11:00:50 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCase.TC_02_AddLowestProdcutToCart@b3ca52e]" started-at="2026-06-15T11:00:50 IST" name="afterClass" finished-at="2026-06-15T11:00:51 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCase.TC_02_AddLowestProdcutToCart@b3ca52e]" started-at="2026-06-15T11:00:51 IST" name="afterSuite" finished-at="2026-06-15T11:00:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCase.TC_02_AddLowestProdcutToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

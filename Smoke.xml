@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<groups>
+	<run>
+		<include name="smoke"></include>
+	</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCase.TC_01_AddProductToCart"/>
+      <class name="testCase.TC_02_AddLowestProductToCartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
